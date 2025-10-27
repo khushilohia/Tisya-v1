@@ -2186,13 +2186,13 @@
                           <img src="./projects/sanjaya-cover.png" alt="Sanjaya Home" onclick="openLightbox(this.src)" style="cursor: pointer;"/>
                         </div>
                         <div class="w-slide">
-                          <img src="./projects/sanjaya-chat.png" alt="Sanjaya AI Assistant" onclick="openLightbox(this.src)" style="cursor: pointer;"/>
+                          <img src="./projects/s1.png" alt="Sanjaya AI Assistant" onclick="openLightbox(this.src)" style="cursor: pointer;"/>
                         </div>
                         <div class="w-slide">
-                          <img src="./projects/sanjaya-features.png" alt="Sanjaya Features" onclick="openLightbox(this.src)" style="cursor: pointer;"/>
+                          <img src="./projects/s2.png" alt="Sanjaya Features" onclick="openLightbox(this.src)" style="cursor: pointer;"/>
                         </div>
                         <div class="w-slide">
-                          <img src="./projects/sanjaya-autocrop.png" alt="Sanjaya Auto Crop Care" onclick="openLightbox(this.src)" style="cursor: pointer;"/>
+                          <img src="./projects/s3.png" alt="Sanjaya Auto Crop Care" onclick="openLightbox(this.src)" style="cursor: pointer;"/>
                         </div>
                       </div>
                       <div class="slide-nav w-slider-nav w-round" style="bottom: 10px;"></div>
@@ -2320,12 +2320,98 @@
               </div>
             </div>
           </div>
+          
+          <!-- More Projects Section (Initially Hidden) -->
+          <div id="moreProjects" class="case-study-cms-wrap w-dyn-list" style="display: none; margin-top: 40px;">
+            <div role="list" class="case-study-cms-list w-dyn-items">
+              
+              <!-- Sync Talk Project -->
+              <div role="listitem" class="case-study-cms w-dyn-item">
+                <div class="case-study">
+                  <div class="thumbnail-wrap">
+                    <img src="./projects/synctalk-cover.png" alt="Sync Talk" onclick="openLightbox(this.src)" style="cursor: pointer; width: 100%; height: 100%; object-fit: cover;"/>
+                    <div class="overlay-01" style="pointer-events: none;"></div>
+                    <div class="year" style="pointer-events: none;">
+                      <div class="small-paragraph">2024</div>
+                    </div>
+                  </div>
+                  <a href="https://synctalk.vercel.app/" target="_blank" class="case-study-text" style="cursor: pointer; display: block; text-decoration: none; color: inherit;">
+                    <h3 class="display-h5">Sync Talk</h3>
+                    <div class="paragraph t---neutral-10">
+                      A modern and secure chat application designed with cutting-edge technologies. Sync Talk offers real-time messaging, enterprise-grade encryption, and seamless file sharing for smooth and safe communication.
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Tooniik Project -->
+              <div role="listitem" class="case-study-cms w-dyn-item">
+                <div class="case-study">
+                  <div class="thumbnail-wrap">
+                    <img src="./projects/tooniik-cover.png" alt="Tooniik" onclick="openLightbox(this.src)" style="cursor: pointer; width: 100%; height: 100%; object-fit: cover;"/>
+                    <div class="overlay-01" style="pointer-events: none;"></div>
+                    <div class="year" style="pointer-events: none;">
+                      <div class="small-paragraph">2024</div>
+                    </div>
+                  </div>
+                  <a href="https://tooniik.vercel.app/" target="_blank" class="case-study-text" style="cursor: pointer; display: block; text-decoration: none; color: inherit;">
+                    <h3 class="display-h5">Tooniik</h3>
+                    <div class="paragraph t---neutral-10">
+                      An innovative EdTech platform inspired by YouTube, Tooniik enables students and educators to share, learn, and grow through interactive educational videos and engaging learning content.
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Kochi Metro App Project -->
+              <div role="listitem" class="case-study-cms w-dyn-item">
+                <div class="case-study">
+                  <div class="thumbnail-wrap">
+                    <img src="./projects/kochi-metro-cover.png" alt="Kochi Metro App" onclick="openLightbox(this.src)" style="cursor: pointer; width: 100%; height: 100%; object-fit: cover;"/>
+                    <div class="overlay-01" style="pointer-events: none;"></div>
+                    <div class="year" style="pointer-events: none;">
+                      <div class="small-paragraph">2024</div>
+                    </div>
+                  </div>
+                  <a href="https://kochi-metro-control.vercel.app/" target="_blank" class="case-study-text" style="cursor: pointer; display: block; text-decoration: none; color: inherit;">
+                    <h3 class="display-h5">Kochi Metro App</h3>
+                    <div class="paragraph t---neutral-10">
+                      A smart web application developed for the Kerala Metro system. It simplifies metro management through real-time tracking, station monitoring, and efficient control operations.
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- SCM Project -->
+              <div role="listitem" class="case-study-cms w-dyn-item">
+                <div class="case-study">
+                  <div class="thumbnail-wrap">
+                    <img src="./projects/scm-cover.png" alt="SCM System" onclick="openLightbox(this.src)" style="cursor: pointer; width: 100%; height: 100%; object-fit: cover;"/>
+                    <div class="overlay-01" style="pointer-events: none;"></div>
+                    <div class="year" style="pointer-events: none;">
+                      <div class="small-paragraph">2024</div>
+                    </div>
+                  </div>
+                  <div class="case-study-text">
+                    <h3 class="display-h5">SCM (Supply Chain Management)</h3>
+                    <div class="paragraph t---neutral-10">
+                      A comprehensive supply chain management platform built to streamline logistics, inventory, legal compliance, and demand tracking. It enhances decision-making with data visualization, automation, and AI-driven insights.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
           <a
-            href="#contact"
+            href="javascript:void(0);"
             data-figma-id="156:103"
             class="outline-button w-inline-block"
+            id="viewAllProjectsBtn"
+            onclick="toggleMoreProjects()"
             ><div class="button-content">
-              <p data-figma-id="96:188" class="button-text">
+              <p data-figma-id="96:188" class="button-text" id="viewAllProjectsText">
                 View All Projects
               </p>
             </div></a
@@ -3359,6 +3445,49 @@
           window.Webflow.require('slider').ready();
         }
       });
+      
+      // Toggle More Projects visibility
+      function toggleMoreProjects() {
+        const moreProjectsSection = document.getElementById('moreProjects');
+        const buttonText = document.getElementById('viewAllProjectsText');
+        const button = document.getElementById('viewAllProjectsBtn');
+        
+        if (moreProjectsSection.style.display === 'none') {
+          // Show more projects with smooth animation
+          moreProjectsSection.style.display = 'block';
+          moreProjectsSection.style.opacity = '0';
+          moreProjectsSection.style.transition = 'opacity 0.5s ease-in-out';
+          
+          setTimeout(() => {
+            moreProjectsSection.style.opacity = '1';
+          }, 10);
+          
+          buttonText.textContent = 'Show Less Projects';
+          
+          // Reinitialize Webflow for new elements
+          if (window.Webflow) {
+            window.Webflow.require('slider').redraw();
+            window.Webflow.require('slider').ready();
+          }
+          
+          // Smooth scroll to more projects
+          setTimeout(() => {
+            moreProjectsSection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }, 100);
+        } else {
+          // Hide more projects
+          moreProjectsSection.style.opacity = '0';
+          
+          setTimeout(() => {
+            moreProjectsSection.style.display = 'none';
+          }, 500);
+          
+          buttonText.textContent = 'View All Projects';
+          
+          // Scroll back to button
+          button.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }
     </script>
   </body>
 </html>
