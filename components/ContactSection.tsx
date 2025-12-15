@@ -66,7 +66,7 @@ export default function ContactSection() {
               </div>
               <div className="rating-text">
                 <div className="small-paragraph">4.9/5 Rated</div>
-                <div className="small-paragraph t---neutral-10">Over 9.2K Customers</div>
+                <div className="small-paragraph t---neutral-10">Over 3 Customers</div>
               </div>
             </div>
           </div>
