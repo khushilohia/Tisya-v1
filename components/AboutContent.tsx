@@ -13,11 +13,11 @@ export default function AboutContent() {
                   <div className="indicator"></div>
                   <div className="small-paragraph">About Us</div>
                 </div>
-                <h1 className="display-h1">About Tisya AI</h1>
+                <h1 className="display-h1">Transforming Ideas Into Reality</h1>
               </div>
               <div className="paragraph-wrap">
                 <p className="large-paragraph t---neutral-10">
-                  Empowering businesses with innovative AI solutions and cutting-edge technology to transform ideas into reality.
+                  We're a team of passionate technologists and innovators dedicated to making advanced AI and software development accessible to businesses of all sizes across India and beyond.
                 </p>
               </div>
             </div>
@@ -46,27 +46,89 @@ export default function AboutContent() {
         </div>
       </section>
 
-      {/* About Content */}
+      {/* Mission & Vision Section */}
       <section className="section">
         <div className="container centered">
-          {/* Company Info - Centered with Animation */}
-          <div data-w-id="71a70a0f-4395-10bb-a654-682d054f26a7" style={{ textAlign: 'center', marginBottom: '80px' }}>
-            <div
-              data-w-id="fb183dfb-c60b-169b-83d2-10bc584a7ef7"
-              className="section-indicator"
-              style={{ justifyContent: 'center', marginBottom: '30px' }}
-            >
+          <div style={{ textAlign: 'center', marginBottom: '60px' }}>
+            <div className="section-indicator" style={{ justifyContent: 'center', marginBottom: '30px' }}>
               <div className="indicator"></div>
-              <div className="small-paragraph">About Us</div>
+              <div className="small-paragraph">Our Story</div>
             </div>
-            <h2 data-w-id="84760383-3241-c221-771a-33900488d0df" className="display-h2" style={{ marginBottom: '30px' }}>
-              About Tisya AI
-            </h2>
-            <div data-w-id="42e4baa9-9891-fb60-296f-33f595a3edf7" className="large-paragraph t---neutral-10" style={{ maxWidth: '900px', margin: '0 auto 20px' }}>
-              Tisya AI is a forward-thinking technology company specializing in AI-powered solutions, custom software development, and digital transformation. Based in Sikkim, we're dedicated to helping businesses leverage the power of artificial intelligence and modern technology to achieve their goals.
+            <h2 className="display-h2" style={{ marginBottom: '30px' }}>About Tisya AI</h2>
+            <div className="large-paragraph t---neutral-10" style={{ maxWidth: '900px', margin: '0 auto 30px' }}>
+              Founded with a vision to democratize technology, Tisya AI specializes in AI-powered solutions, custom software development, and digital transformation. Based in the scenic state of Sikkim, we combine local expertise with global standards to deliver exceptional results.
             </div>
-            <div data-w-id="1567ae63-759c-8e83-3eb8-a809b1c6d867" className="paragraph t---neutral-10" style={{ maxWidth: '800px', margin: '0 auto' }}>
-              Our mission is to bridge the gap between complex technology and practical business solutions, making advanced AI and software development accessible to businesses of all sizes.
+            <div className="paragraph t---neutral-10" style={{ maxWidth: '800px', margin: '0 auto' }}>
+              Our journey began with a simple belief: technology should empower, not intimidate. Today, we help startups and enterprises across India leverage cutting-edge AI, build scalable applications, and establish a strong digital presence.
+            </div>
+          </div>
+
+          {/* Mission & Vision Cards */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '30px', marginBottom: '80px' }} className="mission-vision-grid">
+            <div className="mission-card">
+              <div className="icon w-embed" style={{ marginBottom: '20px' }}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM222.93,203.8a8.5,8.5,0,0,1-7.48,4.2H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L120.52,44.21a8.75,8.75,0,0,1,15,0l87.45,151.87A7.59,7.59,0,0,1,222.93,203.8ZM120,144V104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,180Z"></path>
+                </svg>
+              </div>
+              <h3 className="display-h4" style={{ marginBottom: '15px' }}>Our Mission</h3>
+              <p className="paragraph t---neutral-10">
+                To bridge the gap between complex technology and practical business solutions, making advanced AI and software development accessible, affordable, and impactful for businesses of all sizes.
+              </p>
+            </div>
+
+            <div className="vision-card">
+              <div className="icon w-embed" style={{ marginBottom: '20px' }}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M247.31,124.76c-.35-.79-8.82-19.58-27.65-38.41C194.57,61.26,162.88,48,128,48S61.43,61.26,36.34,86.35C17.51,105.18,9,124,8.69,124.76a8,8,0,0,0,0,6.5c.35.79,8.82,19.57,27.65,38.4C61.43,194.74,93.12,208,128,208s66.57-13.26,91.66-38.34c18.83-18.83,27.3-37.61,27.65-38.4A8,8,0,0,0,247.31,124.76ZM128,192c-30.78,0-57.67-11.19-79.93-33.25A133.47,133.47,0,0,1,25,128,133.33,133.33,0,0,1,48.07,97.25C70.33,75.19,97.22,64,128,64s57.67,11.19,79.93,33.25A133.46,133.46,0,0,1,231.05,128C223.84,141.46,192.43,192,128,192Zm0-112a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Z"></path>
+                </svg>
+              </div>
+              <h3 className="display-h4" style={{ marginBottom: '15px' }}>Our Vision</h3>
+              <p className="paragraph t---neutral-10">
+                To become India's most trusted technology partner, known for turning ambitious ideas into successful digital products through innovation, quality, and unwavering commitment to client success.
+              </p>
+            </div>
+          </div>
+
+          {/* Core Values */}
+          <div style={{ textAlign: 'center', marginBottom: '60px' }}>
+            <h2 className="display-h3" style={{ marginBottom: '20px' }}>Our Core Values</h2>
+            <p className="large-paragraph t---neutral-10" style={{ maxWidth: '700px', margin: '0 auto 50px' }}>
+              The principles that guide everything we do
+            </p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '25px', marginBottom: '80px' }} className="values-grid">
+            <div className="value-card">
+              <div className="value-number">01</div>
+              <h4 className="display-h6" style={{ marginBottom: '10px' }}>Innovation</h4>
+              <p className="paragraph t---neutral-10" style={{ fontSize: '14px' }}>
+                Constantly exploring new technologies and approaches
+              </p>
+            </div>
+
+            <div className="value-card">
+              <div className="value-number">02</div>
+              <h4 className="display-h6" style={{ marginBottom: '10px' }}>Quality</h4>
+              <p className="paragraph t---neutral-10" style={{ fontSize: '14px' }}>
+                Delivering excellence in every line of code
+              </p>
+            </div>
+
+            <div className="value-card">
+              <div className="value-number">03</div>
+              <h4 className="display-h6" style={{ marginBottom: '10px' }}>Transparency</h4>
+              <p className="paragraph t---neutral-10" style={{ fontSize: '14px' }}>
+                Open communication and honest partnerships
+              </p>
+            </div>
+
+            <div className="value-card">
+              <div className="value-number">04</div>
+              <h4 className="display-h6" style={{ marginBottom: '10px' }}>Impact</h4>
+              <p className="paragraph t---neutral-10" style={{ fontSize: '14px' }}>
+                Creating solutions that drive real business results
+              </p>
             </div>
           </div>
 
@@ -209,10 +271,74 @@ export default function AboutContent() {
         .founder-card {
           background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(236, 72, 153, 0.1) 100%);
           border: 1px solid rgba(139, 92, 246, 0.2);
-          border-radius: 12px;
-          padding: 40px;
+          border-radius: 16px;
+          padding: 50px;
           margin-top: 40px;
         }
+        
+        .mission-card, .vision-card {
+          background: linear-gradient(135deg, rgba(139, 92, 246, 0.08) 0%, rgba(236, 72, 153, 0.08) 100%);
+          border: 1px solid rgba(139, 92, 246, 0.2);
+          border-radius: 16px;
+          padding: 40px;
+          text-align: center;
+          transition: all 0.3s ease;
+        }
+        
+        .mission-card:hover, .vision-card:hover {
+          transform: translateY(-5px);
+          border-color: rgba(139, 92, 246, 0.4);
+          box-shadow: 0 15px 40px rgba(139, 92, 246, 0.15);
+        }
+        
+        .mission-card .icon, .vision-card .icon {
+          color: #8b5cf6;
+          display: inline-block;
+        }
+        
+        .value-card {
+          background: rgba(139, 92, 246, 0.05);
+          border: 1px solid rgba(139, 92, 246, 0.15);
+          border-radius: 12px;
+          padding: 30px 20px;
+          text-align: center;
+          transition: all 0.3s ease;
+          position: relative;
+          overflow: hidden;
+        }
+        
+        .value-card::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 3px;
+          background: linear-gradient(90deg, #8b5cf6, #ec4899);
+          transform: scaleX(0);
+          transition: transform 0.3s ease;
+        }
+        
+        .value-card:hover::before {
+          transform: scaleX(1);
+        }
+        
+        .value-card:hover {
+          transform: translateY(-5px);
+          border-color: rgba(139, 92, 246, 0.3);
+          background: rgba(139, 92, 246, 0.08);
+        }
+        
+        .value-number {
+          font-size: 32px;
+          font-weight: 800;
+          background: linear-gradient(135deg, #8b5cf6, #ec4899);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          margin-bottom: 15px;
+        }
+        
         .info-card {
           background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(236, 72, 153, 0.05) 100%);
           border: 1px solid rgba(139, 92, 246, 0.2);
@@ -236,8 +362,15 @@ export default function AboutContent() {
           margin: 0 auto 20px;
           color: #8b5cf6;
         }
+        
         @media (max-width: 991px) {
           .info-cards-grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+          }
+          .mission-vision-grid {
+            grid-template-columns: 1fr !important;
+          }
+          .values-grid {
             grid-template-columns: repeat(2, 1fr) !important;
           }
           .info-card {
@@ -248,8 +381,17 @@ export default function AboutContent() {
           .info-cards-grid {
             grid-template-columns: 1fr !important;
           }
+          .values-grid {
+            grid-template-columns: 1fr !important;
+          }
           .info-card {
             min-height: auto;
+          }
+          .founder-card {
+            padding: 30px;
+          }
+          .mission-card, .vision-card {
+            padding: 30px;
           }
         }
       `}</style>
