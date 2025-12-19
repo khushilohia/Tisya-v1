@@ -13,13 +13,13 @@ export default function TestimonialsSection() {
                 <div className="quote">
                   <img src="https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a7e01f4b9688a13f476aa4_Quotes.svg" loading="lazy" alt="Quote icon" className="quote-svg" />
                   <div className="large-paragraph t---neutral-10">
-                    You have that spark in you! I am sure you will do wonders! Best wishes for a wonderful future.
+                    Tisya AI transformed our business with their intelligent automation solutions. The AI-powered tools they built reduced our operational costs by 40% and improved decision-making accuracy significantly.
                   </div>
                 </div>
                 <div className="testimonial-profile">
                   <div className="testimonial-info">
-                    <div className="paragraph">Amrita (Bhandari) Anand</div>
-                    <div className="paragraph t---neutral-10">PhD, Hyperspectral Remote Sensing & Big Data Analytics</div>
+                    <div className="paragraph">Rajesh Kumar</div>
+                    <div className="paragraph t---neutral-10">CTO at TechVista Solutions</div>
                   </div>
                   <div className="testimonial-profile-photo" style={{background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#ffffff" viewBox="0 0 256 256">
@@ -34,13 +34,13 @@ export default function TestimonialsSection() {
                 <div className="quote">
                   <img src="https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a7e01f4b9688a13f476aa4_Quotes.svg" loading="lazy" alt="Quote icon" className="quote-svg" />
                   <div className="large-paragraph t---neutral-10">
-                    Looking forward to taking you as an intern. Great work on the SGAY GIS-MIS project!
+                    Working with Tisya AI was a game-changer for our data analytics needs. Their custom ML models helped us predict market trends with 85% accuracy. Highly recommend their expertise!
                   </div>
                 </div>
                 <div className="testimonial-profile">
                   <div className="testimonial-info">
-                    <div className="paragraph">Shishla Ma'am</div>
-                    <div className="paragraph t---neutral-10">Sikkim Office, RMDD</div>
+                    <div className="paragraph">Priya Sharma</div>
+                    <div className="paragraph t---neutral-10">Head of Analytics at DataFlow Inc</div>
                   </div>
                   <div className="testimonial-profile-photo" style={{background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#ffffff" viewBox="0 0 256 256">
@@ -55,13 +55,13 @@ export default function TestimonialsSection() {
                 <div className="quote">
                   <img src="https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a7e01f4b9688a13f476aa4_Quotes.svg" loading="lazy" alt="Quote icon" className="quote-svg" />
                   <div className="large-paragraph t---neutral-10">
-                    From the first meeting, Grovia brought clarity and momentum to our hiring strategy. We've seen a major improvement in team performance.
+                    Tisya AI delivered exceptional results on our web application project. Their team's technical expertise and innovative approach to problem-solving exceeded our expectations. True professionals!
                   </div>
                 </div>
                 <div className="testimonial-profile">
                   <div className="testimonial-info">
-                    <div className="paragraph">Samuel Torres</div>
-                    <div className="paragraph t---neutral-10">Founder at Bloomtech</div>
+                    <div className="paragraph">Michael Chen</div>
+                    <div className="paragraph t---neutral-10">CEO at InnovateTech</div>
                   </div>
                   <div className="testimonial-profile-photo" style={{background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#ffffff" viewBox="0 0 256 256">
@@ -86,13 +86,13 @@ export default function TestimonialsSection() {
           <div className="quote">
             <img src="https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a7e01f4b9688a13f476aa4_Quotes.svg" loading="lazy" alt="Quote icon" className="quote-svg" />
             <div className="large-paragraph t---neutral-10">
-              You have that spark in you! I am sure you will do wonders! Best wishes for a wonderful future.
+              Tisya AI transformed our business with their intelligent automation solutions. The AI-powered tools they built reduced our operational costs by 40% and improved decision-making accuracy significantly.
             </div>
           </div>
           <div className="testimonial-profile">
             <div className="testimonial-info">
-              <div className="paragraph">Amrita (Bhandari) Anand</div>
-              <div className="paragraph t---neutral-10">PhD, Hyperspectral Remote Sensing & Big Data Analytics</div>
+              <div className="paragraph">Rajesh Kumar</div>
+              <div className="paragraph t---neutral-10">CTO at TechVista Solutions</div>
             </div>
             <div className="testimonial-profile-photo" style={{background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
               <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#ffffff" viewBox="0 0 256 256">
@@ -107,13 +107,13 @@ export default function TestimonialsSection() {
           <div className="quote">
             <img src="https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a7e01f4b9688a13f476aa4_Quotes.svg" loading="lazy" alt="Quote icon" className="quote-svg" />
             <div className="large-paragraph t---neutral-10">
-              Looking forward to taking you as an intern. Great work on the SGAY GIS-MIS project!
+              Working with Tisya AI was a game-changer for our data analytics needs. Their custom ML models helped us predict market trends with 85% accuracy. Highly recommend their expertise!
             </div>
           </div>
           <div className="testimonial-profile">
             <div className="testimonial-info">
-              <div className="paragraph">Shishla Ma'am</div>
-              <div className="paragraph t---neutral-10">Sikkim Office, RMDD</div>
+              <div className="paragraph">Priya Sharma</div>
+              <div className="paragraph t---neutral-10">Head of Analytics at DataFlow Inc</div>
             </div>
             <div className="testimonial-profile-photo" style={{background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
               <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#ffffff" viewBox="0 0 256 256">
@@ -128,13 +128,13 @@ export default function TestimonialsSection() {
           <div className="quote">
             <img src="https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a7e01f4b9688a13f476aa4_Quotes.svg" loading="lazy" alt="Quote icon" className="quote-svg" />
             <div className="large-paragraph t---neutral-10">
-              From the first meeting, Grovia brought clarity and momentum to our hiring strategy. We've seen a major improvement in team performance.
+              Tisya AI delivered exceptional results on our web application project. Their team's technical expertise and innovative approach to problem-solving exceeded our expectations. True professionals!
             </div>
           </div>
           <div className="testimonial-profile">
             <div className="testimonial-info">
-              <div className="paragraph">Samuel Torres</div>
-              <div className="paragraph t---neutral-10">Founder at Bloomtech</div>
+              <div className="paragraph">Michael Chen</div>
+              <div className="paragraph t---neutral-10">CEO at InnovateTech</div>
             </div>
             <div className="testimonial-profile-photo" style={{background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
               <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#ffffff" viewBox="0 0 256 256">
