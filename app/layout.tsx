@@ -155,6 +155,9 @@ export default function RootLayout({
         <meta name="theme-color" content="#000000" />
         <meta name="referrer" content="strict-origin-when-cross-origin" />
         
+        {/* Google Site Verification */}
+        <meta name="google-site-verification" content="uV36x_BMmPNimSPAzpuSsXX1zSCFBQsDHBeJKeH08Lk" />
+        
         {/* Local Business SEO */}
         <meta name="geo.placename" content="Siliguri, West Bengal" />
         <meta name="geo.position" content="26.725;88.412" />
@@ -205,6 +208,19 @@ export default function RootLayout({
                     (o.DocumentTouch && c instanceof DocumentTouch)) &&
                     (n.className += t + "touch");
               })(window, document);
+            `,
+          }}
+        />
+
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-140NRHXB47"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-140NRHXB47');
             `,
           }}
         />
