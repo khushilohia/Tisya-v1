@@ -164,6 +164,11 @@ export default function Footer() {
               <p className="paragraph">
                 Sikkim, India | Transforming businesses with AI & technology
               </p>
+              <p className="paragraph">
+                <a href="/terms" style={{ color: 'inherit', textDecoration: 'underline' }}>
+                  Terms & Conditions
+                </a>
+              </p>
             </div>
           </div>
         </div>
