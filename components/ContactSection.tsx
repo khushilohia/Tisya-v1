@@ -1,6 +1,53 @@
 'use client';
 
+import { useState, FormEvent } from 'react';
+
 export default function ContactSection() {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false);
+  const [showError, setShowError] = useState(false);
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setShowSuccess(false);
+    setShowError(false);
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch('https://formsubmit.co/ajax/tisya.ai@outlook.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          name: formData.get('name'),
+          email: formData.get('email'),
+          message: formData.get('message'),
+          _subject: 'New Contact Form Submission - Tisya AI',
+          _template: 'table'
+        })
+      });
+
+      if (response.ok) {
+        setShowSuccess(true);
+        form.reset();
+        setTimeout(() => setShowSuccess(false), 5000);
+      } else {
+        setShowError(true);
+        setTimeout(() => setShowError(false), 5000);
+      }
+    } catch (error) {
+      setShowError(true);
+      setTimeout(() => setShowError(false), 5000);
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <section id="contact" data-w-id="d238c4ea-6607-4bbf-9603-a5ef73a09d53" className="section inverse">
       <div className="container inverse-section">
@@ -16,29 +63,62 @@ export default function ContactSection() {
             </div>
           </div>
           <div className="contact-form-wrap w-form">
-            <form method="get" name="wf-form-Form" data-name="Form" className="contact-form" data-wf-page-id="68a413987ca3efce6f38eea6" data-wf-element-id="d238c4ea-6607-4bbf-9603-a5ef73a09d62">
+            <form onSubmit={handleSubmit} className="contact-form" data-wf-page-id="68a413987ca3efce6f38eea6" data-wf-element-id="d238c4ea-6607-4bbf-9603-a5ef73a09d62">
               <div id="w-node-d238c4ea-6607-4bbf-9603-a5ef73a09d63-73a09d53" className="field-wrapper">
                 <div className="input-field">
                   <label htmlFor="name" className="input-label">Name</label>
-                  <input className="text-field w-input" maxLength={256} name="name" data-name="Name" placeholder="Enter name" type="text" required />
+                  <input 
+                    className="text-field w-input" 
+                    maxLength={256} 
+                    name="name" 
+                    id="name"
+                    placeholder="Enter name" 
+                    type="text" 
+                    required 
+                    disabled={isSubmitting}
+                  />
                 </div>
                 <div id="w-node-d238c4ea-6607-4bbf-9603-a5ef73a09d68-73a09d53" className="input-field">
-                  <label htmlFor="Email-address" className="input-label">Email*</label>
-                  <input className="text-field w-input" maxLength={256} name="Email-address" data-name="Email address" placeholder="Enter email address" type="email" />
+                  <label htmlFor="email" className="input-label">Email*</label>
+                  <input 
+                    className="text-field w-input" 
+                    maxLength={256} 
+                    name="email" 
+                    id="email"
+                    placeholder="Enter email address" 
+                    type="email" 
+                    required
+                    disabled={isSubmitting}
+                  />
                 </div>
                 <div className="input-field">
-                  <label htmlFor="field" className="input-label">Message*</label>
-                  <textarea required placeholder="Enter your message" maxLength={5000} id="field" name="field" data-name="Field" className="text-area w-input"></textarea>
+                  <label htmlFor="message" className="input-label">Message*</label>
+                  <textarea 
+                    required 
+                    placeholder="Enter your message" 
+                    maxLength={5000} 
+                    id="message" 
+                    name="message" 
+                    className="text-area w-input"
+                    disabled={isSubmitting}
+                  ></textarea>
                 </div>
               </div>
-              <input type="submit" data-wait="Please wait..." id="w-node-d238c4ea-6607-4bbf-9603-a5ef73a09d70-73a09d53" className="filled-button main w-button" value="Send email" />
+              <button 
+                type="submit" 
+                id="w-node-d238c4ea-6607-4bbf-9603-a5ef73a09d70-73a09d53" 
+                className="filled-button main w-button"
+                disabled={isSubmitting}
+              >
+                {isSubmitting ? 'Sending...' : 'Send email'}
+              </button>
             </form>
-            <div className="success-message w-form-done">
+            <div className={`success-message w-form-done ${showSuccess ? 'show' : ''}`} style={{ display: showSuccess ? 'block' : 'none' }}>
               <div className="paragraph">
                 Thank you! Your submission has been received.<br />We will respond in 1-2 business days.
               </div>
             </div>
-            <div className="error-message w-form-fail">
+            <div className={`error-message w-form-fail ${showError ? 'show' : ''}`} style={{ display: showError ? 'block' : 'none' }}>
               <div>
                 Oops! Something went wrong while submitting the form. Please try again.
               </div>
@@ -47,7 +127,7 @@ export default function ContactSection() {
           <div className="contact-info-wrap">
             <div className="contact-info">
               <div className="large-paragraph t---neutral-10">+91 9647408802</div>
-              <div className="display-h5">tisya.ai@hotmail.com</div>
+              <div className="display-h5">tisya.ai@outlook.com</div>
             </div>
             <div className="rating">
               <div className="rating-profiles">
