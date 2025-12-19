@@ -46,8 +46,8 @@ export default function ContactSection() {
           </div>
           <div className="contact-info-wrap">
             <div className="contact-info">
-              <div className="large-paragraph t---neutral-10">+91 98765 43210</div>
-              <div className="display-h5">hello@tisyaai.com</div>
+              <div className="large-paragraph t---neutral-10">+91 9647408802</div>
+              <div className="display-h5">tisya.ai@hotmail.com</div>
             </div>
             <div className="rating">
               <div className="rating-profiles">

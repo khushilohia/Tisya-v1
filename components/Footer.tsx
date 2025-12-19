@@ -144,7 +144,7 @@ export default function Footer() {
                   </div>
                 </a>
               </div>
-              <div className="display-h1">hello@tisyaai.com</div>
+              <div className="display-h1">tisya.ai@hotmail.com</div>
             </div>
             <div data-figma-id="226:806" className="footer-copyrights">
               <p data-figma-id="226:807" className="paragraph">
