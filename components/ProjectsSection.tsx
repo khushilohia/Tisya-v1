@@ -30,7 +30,7 @@ export default function ProjectsSection() {
               <div role="listitem" className="case-study-cms w-dyn-item">
                 <div className="case-study">
                   <div className="thumbnail-wrap">
-                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
                       <div className="w-slider-mask">
                         <div className="w-slide">
                           <img 
@@ -97,7 +97,7 @@ export default function ProjectsSection() {
               <div role="listitem" className="case-study-cms w-dyn-item">
                 <div className="case-study">
                   <div className="thumbnail-wrap">
-                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
                       <div className="w-slider-mask">
                         <div className="w-slide">
                           <img 
@@ -175,7 +175,7 @@ export default function ProjectsSection() {
               <div role="listitem" className="case-study-cms w-dyn-item">
                 <div className="case-study">
                   <div className="thumbnail-wrap">
-                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
                       <div className="w-slider-mask">
                         <div className="w-slide">
                           <img 
@@ -253,7 +253,7 @@ export default function ProjectsSection() {
               <div role="listitem" className="case-study-cms w-dyn-item">
                 <div className="case-study">
                   <div className="thumbnail-wrap">
-                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
                       <div className="w-slider-mask">
                         <div className="w-slide">
                           <img 
@@ -343,7 +343,7 @@ export default function ProjectsSection() {
               <div role="listitem" className="case-study-cms w-dyn-item">
                 <div className="case-study">
                   <div className="thumbnail-wrap">
-                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
                       <div className="w-slider-mask">
                         <div className="w-slide">
                           <img 
@@ -388,7 +388,7 @@ export default function ProjectsSection() {
               <div role="listitem" className="case-study-cms w-dyn-item">
                 <div className="case-study">
                   <div className="thumbnail-wrap">
-                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
                       <div className="w-slider-mask">
                         <div className="w-slide">
                           <img 
@@ -444,7 +444,7 @@ export default function ProjectsSection() {
               <div role="listitem" className="case-study-cms w-dyn-item">
                 <div className="case-study">
                   <div className="thumbnail-wrap">
-                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
                       <div className="w-slider-mask">
                         <div className="w-slide">
                           <img 
