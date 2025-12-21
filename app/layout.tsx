@@ -10,7 +10,7 @@ const COMPANY_LOCATION = 'Siliguri, West Bengal, India'
 const SOCIAL_MEDIA = {
   instagram: 'https://instagram.com/tisya.ai',
   twitter: 'https://twitter.com/tisya_ai',
-  linkedin: 'https://linkedin.com/company/tisyaai',
+  linkedin: 'https://linkedin.com/company/tisya-ai',
 }
 
 export const metadata: Metadata = {

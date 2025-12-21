@@ -121,7 +121,7 @@ export default function Footer() {
                   </div>
                 </a>
                 <a
-                  href="https://instagram.com/tisyaai"
+                  href="https://instagram.com/tisya.ai"
                   target="_blank"
                   rel="noopener noreferrer"                  aria-label="Instagram"                  className="social-icon-wrap w-inline-block"
                 >
@@ -138,7 +138,7 @@ export default function Footer() {
                   </div>
                 </a>
                 <a
-                  href="https://linkedin.com/company/tisyaai"
+                  href="https://linkedin.com/company/tisya-ai"
                   target="_blank"
                   rel="noopener noreferrer"                  aria-label="LinkedIn"                  className="social-icon-wrap w-inline-block"
                 >
