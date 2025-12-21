@@ -4,7 +4,7 @@ import './globals.css'
 
 const SITE_URL = 'https://tisya.vercel.app'
 const COMPANY_NAME = 'Tisya AI'
-const COMPANY_EMAIL = 'tisya.ai@hotmail.com'
+const COMPANY_EMAIL = 'tisya.ai@outlook.com'
 const COMPANY_PHONE = '+91 9647408802'
 const COMPANY_LOCATION = 'Siliguri, West Bengal, India'
 const SOCIAL_MEDIA = {
@@ -76,12 +76,14 @@ export const metadata: Metadata = {
     title: 'Tisya AI - Best Website & Software Company in Siliguri | AI Solutions',
     description: 'Leading website and software development company in Siliguri specializing in AI-powered solutions, custom CMS, and SaaS products.',
     siteName: 'Tisya AI',
+    publisherName: 'Tisya AI',
     images: [
       {
         url: `${SITE_URL}/asset/images/tisya-logo.png`,
         width: 1200,
         height: 1200,
-        alt: 'Tisya AI - Website and Software Development Company',
+        alt: 'Tisya AI Logo - Website and Software Development Company',
+        type: 'image/png',
       },
     ],
   },
@@ -91,7 +93,12 @@ export const metadata: Metadata = {
     description: 'AI-powered websites, custom CMS, SaaS products, and business software solutions in Siliguri.',
     images: [`${SITE_URL}/asset/images/tisya-logo.png`],
     creator: '@tisya_ai',
+    site: '@tisya_ai',
   },
+  authors: [{ name: 'Tisya AI', url: SITE_URL }],
+  publisher: 'Tisya AI',
+  creator: 'Tisya AI',
+  applicationName: 'Tisya AI',
   other: {
     'mobile-web-app-capable': 'yes',
     'apple-mobile-web-app-capable': 'yes',

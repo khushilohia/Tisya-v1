@@ -157,7 +157,7 @@ export default function AboutContent() {
               <h3 className="display-h6" style={{ marginBottom: '15px' }}>Contact Us</h3>
               <p className="paragraph t---neutral-10">
                 <strong>Email:</strong><br />
-                <a href="mailto:tisya.ai@hotmail.com" style={{ color: '#8b5cf6', textDecoration: 'none' }}>tisya.ai@hotmail.com</a><br /><br />
+                <a href="mailto:tisya.ai@outlook.com" style={{ color: '#8b5cf6', textDecoration: 'none' }}>tisya.ai@outlook.com</a><br /><br />
                 <strong>Phone:</strong><br />
                 <a href="tel:+919647408802" style={{ color: '#8b5cf6', textDecoration: 'none' }}>+91 9647408802</a>
               </p>
@@ -192,8 +192,8 @@ export default function AboutContent() {
                 Khushi B Lohia is the visionary founder of Tisya AI, bringing passion for technology and innovation to help businesses thrive in the digital age. With expertise in AI solutions and software development, Khushi leads the team in delivering cutting-edge solutions that drive real business value.
               </p>
               <div style={{ display: 'flex', gap: '20px', justifyContent: 'center', flexWrap: 'wrap' }}>
-                <a href="mailto:tisya.ai@hotmail.com" className="paragraph" style={{ color: '#8b5cf6', textDecoration: 'none' }}>
-                  <strong>📧 tisya.ai@hotmail.com</strong>
+                <a href="mailto:tisya.ai@outlook.com" className="paragraph" style={{ color: '#8b5cf6', textDecoration: 'none' }}>
+                  <strong>📧 tisya.ai@outlook.com</strong>
                 </a>
                 <a href="tel:+919647408802" className="paragraph" style={{ color: '#8b5cf6', textDecoration: 'none' }}>
                   <strong>📞 +91 9647408802</strong>
