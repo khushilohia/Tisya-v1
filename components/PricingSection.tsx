@@ -31,8 +31,8 @@ export default function PricingSection() {
                 onClick={(e) => { e.preventDefault(); setActiveTab('Tab 1'); }}
               >
                 <div className="pricing-menu-text">
-                  <div className="display-h6">Website Package</div>
-                  <div className="small-paragraph t---neutral-10">For businesses needing web presence</div>
+                  <div className="display-h6">Essential Web Presence</div>
+                  <div className="small-paragraph t---neutral-10">For small businesses</div>
                 </div>
                 <div className="pricing-arrow">
                   <div className="icon l w-embed">
@@ -50,7 +50,7 @@ export default function PricingSection() {
                 onClick={(e) => { e.preventDefault(); setActiveTab('Tab 2'); }}
               >
                 <div className="pricing-menu-text">
-                  <div className="display-h6">Business Suite</div>
+                  <div className="display-h6">Growth & Business Website</div>
                   <div className="small-paragraph t---neutral-10">Most popular</div>
                 </div>
                 <div className="pricing-arrow">
@@ -68,8 +68,8 @@ export default function PricingSection() {
                 onClick={(e) => { e.preventDefault(); setActiveTab('Tab 3'); }}
               >
                 <div className="pricing-menu-text">
-                  <div className="display-h6">Enterprise AI</div>
-                  <div className="small-paragraph t---neutral-10">For scaling businesses</div>
+                  <div className="display-h6">AI-Powered Premium Platform</div>
+                  <div className="small-paragraph t---neutral-10">For premium brands & SaaS</div>
                 </div>
                 <div className="pricing-arrow">
                   <div className="icon l w-embed">
@@ -92,15 +92,15 @@ export default function PricingSection() {
                           </svg>
                         </div>
                       </div>
-                      <h3 className="display-h4">Website Package</h3>
+                      <h3 className="display-h4">Essential Web Presence</h3>
                     </div>
                     <div className="pricing-description">
                       <div className="price">
-                        <h4 className="display-h2">₹25,000</h4>
+                        <h4 className="display-h2">₹12,000</h4>
                         <div className="large-paragraph t---neutral-10">one-time</div>
                       </div>
                       <p className="paragraph t---neutral-10">
-                        Perfect for startups and small businesses looking to build their online presence.
+                        Perfect for small businesses looking to establish their online presence. Up to 5 pages with clean & responsive design.
                       </p>
                     </div>
                     <a
@@ -137,7 +137,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Responsive website design</p>
+                      <p className="paragraph">Up to 5 pages</p>
                     </div>
                     <div className="icon-text">
                       <div className="icon m w-embed">
@@ -145,7 +145,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Basic SEO setup</p>
+                      <p className="paragraph">Clean & Responsive UI/UX</p>
                     </div>
                     <div className="icon-text">
                       <div className="icon m w-embed">
@@ -153,7 +153,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Contact forms & social links</p>
+                      <p className="paragraph">Basic/Limited CMS</p>
                     </div>
                     <div className="icon-text">
                       <div className="icon m w-embed">
@@ -161,7 +161,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Mobile-friendly layout</p>
+                      <p className="paragraph">Basic SEO Setup</p>
                     </div>
                     <div className="icon-text">
                       <div className="icon m w-embed">
@@ -169,7 +169,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">3 months free maintenance</p>
+                      <p className="paragraph">Year 1 Total: ₹16,300 - ₹18,500</p>
                     </div>
                   </div>
                 </div>
@@ -185,15 +185,15 @@ export default function PricingSection() {
                           </svg>
                         </div>
                       </div>
-                      <h3 className="display-h4">Business Suite</h3>
+                      <h3 className="display-h4">Growth & Business Website</h3>
                     </div>
                     <div className="pricing-description">
                       <div className="price">
-                        <h4 className="display-h2">₹65,000</h4>
-                        <div className="large-paragraph t---neutral-10">one-time + ₹5,000/month</div>
+                        <h4 className="display-h2">₹18,000</h4>
+                        <div className="large-paragraph t---neutral-10">one-time</div>
                       </div>
                       <p className="paragraph t---neutral-10">
-                        Ideal for growing brands that need marketing, automation, and monthly support.
+                        Ideal for growing businesses needing custom UI/UX and advanced features. Up to 10 pages with advanced admin CMS.
                       </p>
                     </div>
                     <a
@@ -230,7 +230,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Custom website with animations</p>
+                      <p className="paragraph">Up to 10 pages</p>
                     </div>
                     <div className="icon-text">
                       <div className="icon m w-embed">
@@ -238,7 +238,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Full SEO & content setup</p>
+                      <p className="paragraph">Custom UI/UX</p>
                     </div>
                     <div className="icon-text">
                       <div className="icon m w-embed">
@@ -246,7 +246,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Email & social media integration</p>
+                      <p className="paragraph">Advanced Admin CMS</p>
                     </div>
                     <div className="icon-text">
                       <div className="icon m w-embed">
@@ -254,7 +254,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Monthly updates & performance reports</p>
+                      <p className="paragraph">Basic Analytics Dashboard</p>
                     </div>
                     <div className="icon-text">
                       <div className="icon m w-embed">
@@ -262,7 +262,15 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Dedicated support channel</p>
+                      <p className="paragraph">Advanced SEO Setup</p>
+                    </div>
+                    <div className="icon-text">
+                      <div className="icon m w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                          <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
+                        </svg>
+                      </div>
+                      <p className="paragraph">Year 1 Total: ₹23,300 - ₹25,500</p>
                     </div>
                   </div>
                 </div>
@@ -278,15 +286,15 @@ export default function PricingSection() {
                           </svg>
                         </div>
                       </div>
-                      <h3 className="display-h4">Enterprise AI</h3>
+                      <h3 className="display-h4">AI-Powered Premium Platform</h3>
                     </div>
                     <div className="pricing-description">
                       <div className="price">
-                        <h4 className="display-h2">₹2,50,000</h4>
-                        <div className="large-paragraph t---neutral-10">one-time + ₹15,000/month</div>
+                        <h4 className="display-h2">₹35,000</h4>
+                        <div className="large-paragraph t---neutral-10">one-time</div>
                       </div>
                       <p className="paragraph t---neutral-10">
-                        For scaling businesses seeking AI-powered platforms and smart automation.
+                        For premium brands & SaaS seeking AI-powered platforms and advanced automation. Scalable/unlimited pages.
                       </p>
                     </div>
                     <a
@@ -323,7 +331,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Advanced web + AI system integration</p>
+                      <p className="paragraph">Scalable/Unlimited pages</p>
                     </div>
                     <div className="icon-text">
                       <div className="icon m w-embed">
@@ -331,7 +339,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Role-based dashboards & analytics</p>
+                      <p className="paragraph">Fully Custom, Advanced UI/UX</p>
                     </div>
                     <div className="icon-text">
                       <div className="icon m w-embed">
@@ -339,7 +347,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Cloud hosting & data security</p>
+                      <p className="paragraph">Custom Advanced CMS</p>
                     </div>
                     <div className="icon-text">
                       <div className="icon m w-embed">
@@ -347,7 +355,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">AI chatbot / automation setup</p>
+                      <p className="paragraph">✅ AI Features (Tisya AI Core)</p>
                     </div>
                     <div className="icon-text">
                       <div className="icon m w-embed">
@@ -355,7 +363,31 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">24×7 premium support</p>
+                      <p className="paragraph">Advanced Analytics Dashboard</p>
+                    </div>
+                    <div className="icon-text">
+                      <div className="icon m w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                          <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
+                        </svg>
+                      </div>
+                      <p className="paragraph">AI-Powered SEO</p>
+                    </div>
+                    <div className="icon-text">
+                      <div className="icon m w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                          <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
+                        </svg>
+                      </div>
+                      <p className="paragraph">✅ Free 6 Months Custom SaaS Demo</p>
+                    </div>
+                    <div className="icon-text">
+                      <div className="icon m w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                          <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
+                        </svg>
+                      </div>
+                      <p className="paragraph">Year 1 Total: ₹44,800 - ₹47,000</p>
                     </div>
                   </div>
                 </div>
