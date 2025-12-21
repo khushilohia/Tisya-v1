@@ -1,11 +1,22 @@
 'use client'
 
+import Image from 'next/image'
+
 export default function Footer() {
   return (
     <section className="section footer">
       <div className="container">
         <div data-figma-id="229:1559" className="footer-content">
           <div data-figma-id="226:794" className="footer-info">
+            <div style={{ marginBottom: '32px', display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <Image 
+                src="/asset/images/tisya-logo.png" 
+                alt="Tisya AI Logo" 
+                width={48}
+                height={48}
+              />
+              <div className="display-h4" style={{ margin: 0 }}>Tisya AI</div>
+            </div>
             <div className="subscribe-form-wrap w-form">
               <div className="subscribe-heading">
                 <div className="display-h4">Stay updated with Tisya AI</div>

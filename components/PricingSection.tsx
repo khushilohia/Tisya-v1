@@ -96,8 +96,8 @@ export default function PricingSection() {
                     </div>
                     <div className="pricing-description">
                       <div className="price">
-                        <h4 className="display-h2">₹12,000</h4>
-                        <div className="large-paragraph t---neutral-10">one-time</div>
+                        <h4 className="display-h2">₹18,000</h4>
+                        <div className="large-paragraph t---neutral-10">one-time + ₹2,000/month</div>
                       </div>
                       <p className="paragraph t---neutral-10">
                         Perfect for small businesses looking to establish their online presence. Up to 5 pages with clean & responsive design.
@@ -169,7 +169,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Year 1 Total: ₹16,300 - ₹18,500</p>
+                      <p className="paragraph">Year 1 Total: ₹42,000 - ₹45,000</p>
                     </div>
                   </div>
                 </div>
@@ -189,8 +189,8 @@ export default function PricingSection() {
                     </div>
                     <div className="pricing-description">
                       <div className="price">
-                        <h4 className="display-h2">₹18,000</h4>
-                        <div className="large-paragraph t---neutral-10">one-time</div>
+                        <h4 className="display-h2">₹38,000</h4>
+                        <div className="large-paragraph t---neutral-10">one-time + ₹4,000/month</div>
                       </div>
                       <p className="paragraph t---neutral-10">
                         Ideal for growing businesses needing custom UI/UX and advanced features. Up to 10 pages with advanced admin CMS.
@@ -270,7 +270,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Year 1 Total: ₹23,300 - ₹25,500</p>
+                      <p className="paragraph">Year 1 Total: ₹86,000 - ₹92,000</p>
                     </div>
                   </div>
                 </div>
@@ -290,8 +290,8 @@ export default function PricingSection() {
                     </div>
                     <div className="pricing-description">
                       <div className="price">
-                        <h4 className="display-h2">₹35,000</h4>
-                        <div className="large-paragraph t---neutral-10">one-time</div>
+                        <h4 className="display-h2">₹1,10,000</h4>
+                        <div className="large-paragraph t---neutral-10">one-time + ₹8,000/month</div>
                       </div>
                       <p className="paragraph t---neutral-10">
                         For premium brands & SaaS seeking AI-powered platforms and advanced automation. Scalable/unlimited pages.
@@ -387,7 +387,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Year 1 Total: ₹44,800 - ₹47,000</p>
+                      <p className="paragraph">Year 1 Total: ₹2,06,000 - ₹2,12,000</p>
                     </div>
                   </div>
                 </div>

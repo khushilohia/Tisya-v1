@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState, useEffect } from 'react'
 
 export default function Navigation() {
@@ -19,7 +20,13 @@ export default function Navigation() {
       <div className="navbar">
         <div className="nav-wrapper">
           <div className="brand-wrapper">
-            <Link href="/" className="brand w-inline-block w--current">
+            <Link href="/" className="brand w-inline-block w--current" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <Image 
+                src="/asset/images/tisya-logo.png" 
+                alt="Tisya AI Logo" 
+                width={40}
+                height={40}
+              />
               <div
                 className="display-h5"
                 style={{ margin: 0, color: 'var(--t---neutral-100, #000)' }}

@@ -33,6 +33,10 @@ export const metadata: Metadata = {
     'software solutions near me',
     'custom software development India',
   ],
+  icons: {
+    icon: '/asset/images/tisya-logo.png',
+    apple: '/asset/images/tisya-logo.png',
+  },
   robots: {
     index: true,
     follow: true,
@@ -52,9 +56,9 @@ export const metadata: Metadata = {
     siteName: 'Tisya AI',
     images: [
       {
-        url: 'https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a9be8f27671aca112e0f34_Social%20Preview.avif',
+        url: `${SITE_URL}/asset/images/tisya-logo.png`,
         width: 1200,
-        height: 630,
+        height: 1200,
         alt: 'Tisya AI - Website and Software Development Company',
       },
     ],
@@ -63,12 +67,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Tisya AI - Best Website & Software Company in Siliguri',
     description: 'AI-powered websites, custom CMS, SaaS products, and business software solutions in Siliguri.',
-    images: ['https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a9be8f27671aca112e0f34_Social%20Preview.avif'],
+    images: [`${SITE_URL}/asset/images/tisya-logo.png`],
     creator: '@tisya_ai',
-  },
-  icons: {
-    icon: 'https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a41b28eb0fd24f5f16d22d_Favicon.png',
-    apple: 'https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a41b53872ffdcf03e8a46f_Webclip.png',
   },
   other: {
     'mobile-web-app-capable': 'yes',
@@ -88,7 +88,7 @@ export default function RootLayout({
     '@type': 'Organization',
     name: COMPANY_NAME,
     url: SITE_URL,
-    logo: 'https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a41b28eb0fd24f5f16d22d_Favicon.png',
+    logo: `${SITE_URL}/asset/images/tisya-logo.png`,
     description: 'Tisya AI is a leading website and software development company in Siliguri, West Bengal, specializing in AI-powered solutions.',
     contactPoint: {
       '@type': 'ContactPoint',
