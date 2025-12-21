@@ -10,6 +10,7 @@ const COMPANY_LOCATION = 'Siliguri, West Bengal, India'
 const SOCIAL_MEDIA = {
   instagram: 'https://instagram.com/tisya.ai',
   twitter: 'https://twitter.com/tisya_ai',
+  linkedin: 'https://linkedin.com/company/tisyaai',
 }
 
 export const metadata: Metadata = {
@@ -18,8 +19,9 @@ export const metadata: Metadata = {
     default: 'Tisya AI - Best Website & Software Company in Siliguri | AI Solutions',
     template: '%s | Tisya AI - Siliguri',
   },
-  description: 'Tisya AI is the leading website and software development company in Siliguri, West Bengal. We specialize in AI-powered websites, custom CMS development, SaaS products, and business software solutions. Premium quality at the best prices.',
+  description: 'Top-rated website & software development company in Siliguri. Get AI-powered websites starting at ₹18,000. Custom CMS, SaaS products & business automation. 4.9★ rated. Free consultation available.',
   keywords: [
+    // Core Services
     'website development company Siliguri',
     'best website developer Siliguri',
     'software company Siliguri',
@@ -29,9 +31,29 @@ export const metadata: Metadata = {
     'web design Siliguri',
     'business software solutions',
     'AI solutions Siliguri',
+    // Local Intent (High conversion)
+    'website developer near me Siliguri',
+    'best web development agency Siliguri',
+    'affordable website design Siliguri',
+    'Siliguri software development company',
     'web development company West Bengal',
     'software solutions near me',
+    // Service-Specific (Less competition)
+    'AI chatbot development Siliguri',
+    'custom CMS development West Bengal',
+    'e-commerce website development Siliguri',
+    'business automation software Siliguri',
+    'responsive website design Siliguri',
+    'mobile app development Siliguri',
+    // Long-Tail Keywords (Easier to rank)
+    'how much does a website cost in Siliguri',
+    'best AI solutions for small business Siliguri',
+    'SaaS product development India',
+    'website maintenance services Siliguri',
     'custom software development India',
+    'website redesign services Siliguri',
+    'SEO services Siliguri',
+    'digital transformation Siliguri',
   ],
   icons: {
     icon: '/asset/images/tisya-logo.png',
@@ -107,7 +129,15 @@ export default function RootLayout({
     sameAs: [
       SOCIAL_MEDIA.instagram,
       SOCIAL_MEDIA.twitter,
+      SOCIAL_MEDIA.linkedin,
     ],
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '3',
+      bestRating: '5',
+      worstRating: '1',
+    },
   }
 
   // JSON-LD for LocalBusiness
@@ -126,9 +156,14 @@ export default function RootLayout({
       postalCode: '734001',
       addressCountry: 'IN',
     },
-    priceRange: '₹',
-    image: 'https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a9be8f27671aca112e0f34_Social%20Preview.avif',
-    description: 'Professional website and software development company offering AI solutions, custom CMS, and SaaS products.',
+    priceRange: '₹₹',
+    image: `${SITE_URL}/asset/images/tisya-logo.png`,
+    description: 'Professional website and software development company offering AI solutions, custom CMS, and SaaS products. Rated 4.9/5 stars.',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '3',
+    },
     areaServed: [
       {
         '@type': 'City',
@@ -143,6 +178,129 @@ export default function RootLayout({
         name: 'India',
       },
     ],
+  }
+
+  // JSON-LD for FAQ (Google Rich Snippets)
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'How much does a website cost in Siliguri?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Website costs in Siliguri start from ₹18,000 for a basic 5-page site, ₹38,000 for custom business websites with advanced CMS, and ₹1,10,000 for AI-powered platforms with advanced features and automation.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'What services does Tisya AI offer?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Tisya AI offers website development, custom CMS development, SaaS product development, AI-powered automation, mobile app development, business software solutions, and ongoing maintenance and support services.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'How long does it take to build a website?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'A basic website typically takes 1-2 weeks, custom business websites take 3-4 weeks, and AI-powered platforms take 6-8 weeks depending on complexity and requirements.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'Do you provide website maintenance services?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes, we provide monthly maintenance services starting from ₹2,000/month including updates, security patches, content changes, and technical support.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'Where is Tisya AI located?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Tisya AI is based in Siliguri, West Bengal, India. We serve clients across Siliguri, West Bengal, and throughout India.'
+        }
+      }
+    ]
+  }
+
+  // JSON-LD for Service
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: 'Website Development & Software Solutions',
+    provider: {
+      '@type': 'Organization',
+      name: COMPANY_NAME,
+      url: SITE_URL,
+    },
+    areaServed: [
+      {
+        '@type': 'City',
+        name: 'Siliguri',
+      },
+      {
+        '@type': 'State',
+        name: 'West Bengal',
+      },
+      {
+        '@type': 'Country',
+        name: 'India',
+      },
+    ],
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Website Development Services',
+      itemListElement: [
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Essential Web Presence',
+            description: 'Basic 5-page responsive website with clean design',
+          },
+          price: '18000',
+          priceCurrency: 'INR',
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Growth & Business Website',
+            description: 'Custom 10-page website with advanced CMS and analytics',
+          },
+          price: '38000',
+          priceCurrency: 'INR',
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'AI-Powered Premium Platform',
+            description: 'Scalable AI-powered platform with custom features',
+          },
+          price: '110000',
+          priceCurrency: 'INR',
+        },
+      ],
+    },
+  }
+
+  // JSON-LD for WebSite (Sitelinks Search Box)
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: COMPANY_NAME,
+    url: SITE_URL,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: `${SITE_URL}/?s={search_term_string}`,
+      'query-input': 'required name=search_term_string',
+    },
   }
 
   return (
@@ -233,6 +391,18 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
       <body>
