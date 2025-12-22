@@ -76,7 +76,6 @@ export const metadata: Metadata = {
     title: 'Tisya AI - Best Website & Software Company in Siliguri | AI Solutions',
     description: 'Leading website and software development company in Siliguri specializing in AI-powered solutions, custom CMS, and SaaS products.',
     siteName: 'Tisya AI',
-    publisherName: 'Tisya AI',
     images: [
       {
         url: `${SITE_URL}/asset/images/tisya-logo.png`,
