@@ -97,7 +97,7 @@ export default function PricingSection() {
                     <div className="pricing-description">
                       <div className="price">
                         <h4 className="display-h2">₹18,000</h4>
-                        <div className="large-paragraph t---neutral-10">one-time + ₹2,000/year</div>
+                        <div className="large-paragraph t---neutral-10">one-time + ₹6,300/year</div>
                       </div>
                       <p className="paragraph t---neutral-10">
                         Perfect for small businesses looking to establish their online presence. Up to 5 pages with clean & responsive design.
@@ -143,7 +143,31 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Year 1 Total: ₹20,000</p>
+                      <p className="paragraph">Database & Storage: ₹500/year (Basic)</p>
+                    </div>
+                    <div className="icon-text">
+                      <div className="icon m w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                          <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
+                        </svg>
+                      </div>
+                      <p className="paragraph">Domain: .in ₹800 / .com ₹1,500</p>
+                    </div>
+                    <div className="icon-text">
+                      <div className="icon m w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                          <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
+                        </svg>
+                      </div>
+                      <p className="paragraph">Hosting: ₹3,000/year (Standard)</p>
+                    </div>
+                    <div className="icon-text">
+                      <div className="icon m w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                          <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
+                        </svg>
+                      </div>
+                      <p className="paragraph">Year 1 Total: ₹24,300 - ₹26,800</p>
                     </div>
                     <p className="small-paragraph" style={{textAlign: 'right', marginTop: '15px', marginRight: '0', width: '100%'}}>*Terms and conditions apply</p>
                   </div>
@@ -165,7 +189,7 @@ export default function PricingSection() {
                     <div className="pricing-description">
                       <div className="price">
                         <h4 className="display-h2">₹38,000</h4>
-                        <div className="large-paragraph t---neutral-10">one-time + ₹4,000/year</div>
+                        <div className="large-paragraph t---neutral-10">one-time + ₹9,300/year</div>
                       </div>
                       <p className="paragraph t---neutral-10">
                         Ideal for growing businesses needing custom UI/UX and advanced features. Up to 10 pages with advanced admin CMS.
@@ -219,7 +243,31 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Year 1 Total: ₹42,000</p>
+                      <p className="paragraph">Database & Storage: ₹1,500/year (Managed)</p>
+                    </div>
+                    <div className="icon-text">
+                      <div className="icon m w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                          <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
+                        </svg>
+                      </div>
+                      <p className="paragraph">Domain: Same as Essential Tier</p>
+                    </div>
+                    <div className="icon-text">
+                      <div className="icon m w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                          <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
+                        </svg>
+                      </div>
+                      <p className="paragraph">Hosting: ₹3,000/year (Standard)</p>
+                    </div>
+                    <div className="icon-text">
+                      <div className="icon m w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                          <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
+                        </svg>
+                      </div>
+                      <p className="paragraph">Year 1 Total: ₹47,300 - ₹49,800</p>
                     </div>
                     <p className="small-paragraph" style={{textAlign: 'right', marginTop: '15px', marginRight: '0', width: '100%'}}>*Terms and conditions apply</p>
                   </div>
@@ -241,7 +289,7 @@ export default function PricingSection() {
                     <div className="pricing-description">
                       <div className="price">
                         <h4 className="display-h2">₹1,10,000</h4>
-                        <div className="large-paragraph t---neutral-10">one-time + ₹8,000/year</div>
+                        <div className="large-paragraph t---neutral-10">one-time + ₹16,800/year</div>
                       </div>
                       <p className="paragraph t---neutral-10">
                         For premium brands & SaaS seeking AI-powered platforms and advanced automation. Scalable/unlimited pages.
@@ -311,7 +359,31 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Year 1 Total: ₹1,18,000</p>
+                      <p className="paragraph">Database & Storage: ₹3,000/year (High-Volume)</p>
+                    </div>
+                    <div className="icon-text">
+                      <div className="icon m w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                          <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
+                        </svg>
+                      </div>
+                      <p className="paragraph">Domain: Same as Essential Tier</p>
+                    </div>
+                    <div className="icon-text">
+                      <div className="icon m w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                          <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
+                        </svg>
+                      </div>
+                      <p className="paragraph">Hosting: ₹5,000/year (High Traffic)</p>
+                    </div>
+                    <div className="icon-text">
+                      <div className="icon m w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                          <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
+                        </svg>
+                      </div>
+                      <p className="paragraph">Year 1 Total: ₹1,26,800 - ₹1,29,300</p>
                     </div>
                     <p className="small-paragraph" style={{textAlign: 'right', marginTop: '15px', marginRight: '0', width: '100%'}}>*Terms and conditions apply</p>
                   </div>
