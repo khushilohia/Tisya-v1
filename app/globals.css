@@ -1,5 +1,29 @@
 @import url('/asset/68a413987ca3efce6f38ee67/css/grovia-template.webflow.shared.1981e3e8c.css');
 
+/* Pricing section - Fixed height and active highlight */
+.w-tab-content {
+  min-height: 550px;
+  transition: min-height 0.3s ease-in-out;
+}
+
+.pricing-menu-item.w--current {
+  background-color: var(--main--yellow) !important;
+  color: var(--neutral--neutral-00) !important;
+  opacity: 1 !important;
+}
+
+.pricing-menu-item.w--current .display-h6 {
+  color: var(--neutral--neutral-00) !important;
+}
+
+.pricing-menu-item.w--current .small-paragraph {
+  color: var(--neutral--neutral-00) !important;
+}
+
+.pricing-menu-item.w--current .icon {
+  color: var(--neutral--neutral-00) !important;
+}
+
 /* Remove ALL hover zoom effects from hero section */
 .hero * {
   transform: none !important;

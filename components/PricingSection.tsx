@@ -97,38 +97,12 @@ export default function PricingSection() {
                     <div className="pricing-description">
                       <div className="price">
                         <h4 className="display-h2">₹18,000</h4>
-                        <div className="large-paragraph t---neutral-10">one-time + ₹2,000/month</div>
+                        <div className="large-paragraph t---neutral-10">one-time + ₹2,000/year</div>
                       </div>
                       <p className="paragraph t---neutral-10">
                         Perfect for small businesses looking to establish their online presence. Up to 5 pages with clean & responsive design.
                       </p>
                     </div>
-                    <a
-                      href="#contact"
-                      data-figma-id="156:103"
-                      data-wf--primary-button--variant="main"
-                      className="primary-button w-variant-a28e9eca-dd25-befc-b99a-9393604c075e w-inline-block"
-                    >
-                      <div className="button-content">
-                        <p data-figma-id="96:188" className="button-text">Schedule a demo</p>
-                        <div className="button-icon-wrap">
-                          <div className="slide-in-icon">
-                            <div className="icon w-embed">
-                              <svg width="32" height="32" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M28.0613 17.0612L19.0613 26.0612C18.7795 26.343 18.3973 26.5013 17.9988 26.5013C17.6002 26.5013 17.218 26.343 16.9363 26.0612C16.6545 25.7794 16.4961 25.3972 16.4961 24.9987C16.4961 24.6002 16.6545 24.218 16.9363 23.9362L23.375 17.5H5C4.60218 17.5 4.22064 17.3419 3.93934 17.0606C3.65804 16.7793 3.5 16.3978 3.5 16C3.5 15.6022 3.65804 15.2206 3.93934 14.9393C4.22064 14.658 4.60218 14.5 5 14.5H23.375L16.9387 8.05998C16.657 7.77818 16.4986 7.39599 16.4986 6.99747C16.4986 6.59896 16.657 6.21677 16.9387 5.93497C17.2205 5.65318 17.6027 5.49487 18.0012 5.49487C18.3998 5.49487 18.782 5.65318 19.0637 5.93497L28.0637 14.935C28.2036 15.0745 28.3145 15.2403 28.3901 15.4228C28.4657 15.6054 28.5045 15.801 28.5043 15.9986C28.5041 16.1962 28.4648 16.3918 28.3888 16.5741C28.3127 16.7565 28.2014 16.922 28.0613 17.0612Z" fill="currentColor" />
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="slide-out-icon">
-                            <div className="icon w-embed">
-                              <svg width="32" height="32" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M28.0613 17.0612L19.0613 26.0612C18.7795 26.343 18.3973 26.5013 17.9988 26.5013C17.6002 26.5013 17.218 26.343 16.9363 26.0612C16.6545 25.7794 16.4961 25.3972 16.4961 24.9987C16.4961 24.6002 16.6545 24.218 16.9363 23.9362L23.375 17.5H5C4.60218 17.5 4.22064 17.3419 3.93934 17.0606C3.65804 16.7793 3.5 16.3978 3.5 16C3.5 15.6022 3.65804 15.2206 3.93934 14.9393C4.22064 14.658 4.60218 14.5 5 14.5H23.375L16.9387 8.05998C16.657 7.77818 16.4986 7.39599 16.4986 6.99747C16.4986 6.59896 16.657 6.21677 16.9387 5.93497C17.2205 5.65318 17.6027 5.49487 18.0012 5.49487C18.3998 5.49487 18.782 5.65318 19.0637 5.93497L28.0637 14.935C28.2036 15.0745 28.3145 15.2403 28.3901 15.4228C28.4657 15.6054 28.5045 15.801 28.5043 15.9986C28.5041 16.1962 28.4648 16.3918 28.3888 16.5741C28.3127 16.7565 28.2014 16.922 28.0613 17.0612Z" fill="currentColor" />
-                              </svg>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
                   </div>
                   <div className="check-list-wrap">
                     <div className="icon-text">
@@ -169,8 +143,9 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Year 1 Total: ₹42,000 - ₹45,000</p>
+                      <p className="paragraph">Year 1 Total: ₹20,000</p>
                     </div>
+                    <p className="small-paragraph" style={{textAlign: 'right', marginTop: '15px', marginRight: '0', width: '100%'}}>*Terms and conditions apply</p>
                   </div>
                 </div>
               </div>
@@ -190,38 +165,12 @@ export default function PricingSection() {
                     <div className="pricing-description">
                       <div className="price">
                         <h4 className="display-h2">₹38,000</h4>
-                        <div className="large-paragraph t---neutral-10">one-time + ₹4,000/month</div>
+                        <div className="large-paragraph t---neutral-10">one-time + ₹4,000/year</div>
                       </div>
                       <p className="paragraph t---neutral-10">
                         Ideal for growing businesses needing custom UI/UX and advanced features. Up to 10 pages with advanced admin CMS.
                       </p>
                     </div>
-                    <a
-                      href="#contact"
-                      data-figma-id="156:103"
-                      data-wf--primary-button--variant="main"
-                      className="primary-button w-variant-a28e9eca-dd25-befc-b99a-9393604c075e w-inline-block"
-                    >
-                      <div className="button-content">
-                        <p data-figma-id="96:188" className="button-text">Schedule a demo</p>
-                        <div className="button-icon-wrap">
-                          <div className="slide-in-icon">
-                            <div className="icon w-embed">
-                              <svg width="32" height="32" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M28.0613 17.0612L19.0613 26.0612C18.7795 26.343 18.3973 26.5013 17.9988 26.5013C17.6002 26.5013 17.218 26.343 16.9363 26.0612C16.6545 25.7794 16.4961 25.3972 16.4961 24.9987C16.4961 24.6002 16.6545 24.218 16.9363 23.9362L23.375 17.5H5C4.60218 17.5 4.22064 17.3419 3.93934 17.0606C3.65804 16.7793 3.5 16.3978 3.5 16C3.5 15.6022 3.65804 15.2206 3.93934 14.9393C4.22064 14.658 4.60218 14.5 5 14.5H23.375L16.9387 8.05998C16.657 7.77818 16.4986 7.39599 16.4986 6.99747C16.4986 6.59896 16.657 6.21677 16.9387 5.93497C17.2205 5.65318 17.6027 5.49487 18.0012 5.49487C18.3998 5.49487 18.782 5.65318 19.0637 5.93497L28.0637 14.935C28.2036 15.0745 28.3145 15.2403 28.3901 15.4228C28.4657 15.6054 28.5045 15.801 28.5043 15.9986C28.5041 16.1962 28.4648 16.3918 28.3888 16.5741C28.3127 16.7565 28.2014 16.922 28.0613 17.0612Z" fill="currentColor" />
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="slide-out-icon">
-                            <div className="icon w-embed">
-                              <svg width="32" height="32" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M28.0613 17.0612L19.0613 26.0612C18.7795 26.343 18.3973 26.5013 17.9988 26.5013C17.6002 26.5013 17.218 26.343 16.9363 26.0612C16.6545 25.7794 16.4961 25.3972 16.4961 24.9987C16.4961 24.6002 16.6545 24.218 16.9363 23.9362L23.375 17.5H5C4.60218 17.5 4.22064 17.3419 3.93934 17.0606C3.65804 16.7793 3.5 16.3978 3.5 16C3.5 15.6022 3.65804 15.2206 3.93934 14.9393C4.22064 14.658 4.60218 14.5 5 14.5H23.375L16.9387 8.05998C16.657 7.77818 16.4986 7.39599 16.4986 6.99747C16.4986 6.59896 16.657 6.21677 16.9387 5.93497C17.2205 5.65318 17.6027 5.49487 18.0012 5.49487C18.3998 5.49487 18.782 5.65318 19.0637 5.93497L28.0637 14.935C28.2036 15.0745 28.3145 15.2403 28.3901 15.4228C28.4657 15.6054 28.5045 15.801 28.5043 15.9986C28.5041 16.1962 28.4648 16.3918 28.3888 16.5741C28.3127 16.7565 28.2014 16.922 28.0613 17.0612Z" fill="currentColor" />
-                              </svg>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
                   </div>
                   <div className="check-list-wrap">
                     <div className="icon-text">
@@ -270,8 +219,9 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Year 1 Total: ₹86,000 - ₹92,000</p>
+                      <p className="paragraph">Year 1 Total: ₹42,000</p>
                     </div>
+                    <p className="small-paragraph" style={{textAlign: 'right', marginTop: '15px', marginRight: '0', width: '100%'}}>*Terms and conditions apply</p>
                   </div>
                 </div>
               </div>
@@ -291,38 +241,12 @@ export default function PricingSection() {
                     <div className="pricing-description">
                       <div className="price">
                         <h4 className="display-h2">₹1,10,000</h4>
-                        <div className="large-paragraph t---neutral-10">one-time + ₹8,000/month</div>
+                        <div className="large-paragraph t---neutral-10">one-time + ₹8,000/year</div>
                       </div>
                       <p className="paragraph t---neutral-10">
                         For premium brands & SaaS seeking AI-powered platforms and advanced automation. Scalable/unlimited pages.
                       </p>
                     </div>
-                    <a
-                      href="#contact"
-                      data-figma-id="156:103"
-                      data-wf--primary-button--variant="main"
-                      className="primary-button w-variant-a28e9eca-dd25-befc-b99a-9393604c075e w-inline-block"
-                    >
-                      <div className="button-content">
-                        <p data-figma-id="96:188" className="button-text">Schedule a demo</p>
-                        <div className="button-icon-wrap">
-                          <div className="slide-in-icon">
-                            <div className="icon w-embed">
-                              <svg width="32" height="32" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M28.0613 17.0612L19.0613 26.0612C18.7795 26.343 18.3973 26.5013 17.9988 26.5013C17.6002 26.5013 17.218 26.343 16.9363 26.0612C16.6545 25.7794 16.4961 25.3972 16.4961 24.9987C16.4961 24.6002 16.6545 24.218 16.9363 23.9362L23.375 17.5H5C4.60218 17.5 4.22064 17.3419 3.93934 17.0606C3.65804 16.7793 3.5 16.3978 3.5 16C3.5 15.6022 3.65804 15.2206 3.93934 14.9393C4.22064 14.658 4.60218 14.5 5 14.5H23.375L16.9387 8.05998C16.657 7.77818 16.4986 7.39599 16.4986 6.99747C16.4986 6.59896 16.657 6.21677 16.9387 5.93497C17.2205 5.65318 17.6027 5.49487 18.0012 5.49487C18.3998 5.49487 18.782 5.65318 19.0637 5.93497L28.0637 14.935C28.2036 15.0745 28.3145 15.2403 28.3901 15.4228C28.4657 15.6054 28.5045 15.801 28.5043 15.9986C28.5041 16.1962 28.4648 16.3918 28.3888 16.5741C28.3127 16.7565 28.2014 16.922 28.0613 17.0612Z" fill="currentColor" />
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="slide-out-icon">
-                            <div className="icon w-embed">
-                              <svg width="32" height="32" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M28.0613 17.0612L19.0613 26.0612C18.7795 26.343 18.3973 26.5013 17.9988 26.5013C17.6002 26.5013 17.218 26.343 16.9363 26.0612C16.6545 25.7794 16.4961 25.3972 16.4961 24.9987C16.4961 24.6002 16.6545 24.218 16.9363 23.9362L23.375 17.5H5C4.60218 17.5 4.22064 17.3419 3.93934 17.0606C3.65804 16.7793 3.5 16.3978 3.5 16C3.5 15.6022 3.65804 15.2206 3.93934 14.9393C4.22064 14.658 4.60218 14.5 5 14.5H23.375L16.9387 8.05998C16.657 7.77818 16.4986 7.39599 16.4986 6.99747C16.4986 6.59896 16.657 6.21677 16.9387 5.93497C17.2205 5.65318 17.6027 5.49487 18.0012 5.49487C18.3998 5.49487 18.782 5.65318 19.0637 5.93497L28.0637 14.935C28.2036 15.0745 28.3145 15.2403 28.3901 15.4228C28.4657 15.6054 28.5045 15.801 28.5043 15.9986C28.5041 16.1962 28.4648 16.3918 28.3888 16.5741C28.3127 16.7565 28.2014 16.922 28.0613 17.0612Z" fill="currentColor" />
-                              </svg>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
                   </div>
                   <div className="check-list-wrap">
                     <div className="icon-text">
@@ -355,7 +279,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">✅ AI Features (Tisya AI Core)</p>
+                      <p className="paragraph">AI Features (Tisya AI Core)</p>
                     </div>
                     <div className="icon-text">
                       <div className="icon m w-embed">
@@ -379,7 +303,7 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">✅ Free 6 Months Custom SaaS Demo</p>
+                      <p className="paragraph">Free 6 Months Custom SaaS Demo</p>
                     </div>
                     <div className="icon-text">
                       <div className="icon m w-embed">
@@ -387,60 +311,11 @@ export default function PricingSection() {
                           <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
                         </svg>
                       </div>
-                      <p className="paragraph">Year 1 Total: ₹2,06,000 - ₹2,12,000</p>
+                      <p className="paragraph">Year 1 Total: ₹1,18,000</p>
                     </div>
+                    <p className="small-paragraph" style={{textAlign: 'right', marginTop: '15px', marginRight: '0', width: '100%'}}>*Terms and conditions apply</p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className="pricing-rating">
-            <div className="rating">
-              <div className="rating-profiles">
-                <div className="rating-profile _1">
-                  <img
-                    src="https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a71d7fa79008ec6716ac73_Modern%20man%20portrait%20.avif"
-                    loading="lazy"
-                    alt="Modern man portrait "
-                    sizes="(max-width: 928px) 100vw, 928px"
-                    srcSet="https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a71d7fa79008ec6716ac73_Modern%20man%20portrait%20-p-500.avif 500w, https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a71d7fa79008ec6716ac73_Modern%20man%20portrait%20-p-800.avif 800w, https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a71d7fa79008ec6716ac73_Modern%20man%20portrait%20.avif 928w"
-                    className="rating-profile-image"
-                  />
-                </div>
-                <div className="rating-profile _2">
-                  <img
-                    src="https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a71d7fa80bb87671d03416_Dreamy%20Portrait%20of%20a%20Young%20Woman.avif"
-                    loading="lazy"
-                    alt="Dreamy Portrait of a Young Woman"
-                    sizes="(max-width: 512px) 100vw, 512px"
-                    srcSet="https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a71d7fa80bb87671d03416_Dreamy%20Portrait%20of%20a%20Young%20Woman-p-500.avif 500w, https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a71d7fa80bb87671d03416_Dreamy%20Portrait%20of%20a%20Young%20Woman.avif 512w"
-                    className="rating-profile-image"
-                  />
-                </div>
-                <div className="rating-profile _3">
-                  <img
-                    src="https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a71d7fa80bb87671d03408_Contemplative%20Woman%20in%20Vibrant%20Fashion.avif"
-                    loading="lazy"
-                    alt="Contemplative Woman in Vibrant Fashion"
-                    sizes="(max-width: 512px) 100vw, 512px"
-                    srcSet="https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a71d7fa80bb87671d03408_Contemplative%20Woman%20in%20Vibrant%20Fashion-p-500.avif 500w, https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a71d7fa80bb87671d03408_Contemplative%20Woman%20in%20Vibrant%20Fashion.avif 512w"
-                    className="rating-profile-image"
-                  />
-                </div>
-                <div className="rating-profile _4">
-                  <img
-                    src="https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a71d7f400136be769bc9dc_Modern%20Portrait%20Gradient.avif"
-                    loading="lazy"
-                    alt="Modern Portrait Gradient"
-                    sizes="(max-width: 520px) 100vw, 520px"
-                    srcSet="https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a71d7f400136be769bc9dc_Modern%20Portrait%20Gradient-p-500.avif 500w, https://cdn.prod.website-files.com/68a413987ca3efce6f38ee67/68a71d7f400136be769bc9dc_Modern%20Portrait%20Gradient.avif 520w"
-                    className="rating-profile-image"
-                  />
-                </div>
-              </div>
-              <div className="rating-text">
-                <div className="small-paragraph">4.9/5 Rated</div>
-                <div className="small-paragraph t---neutral-10">Over 3 Customers</div>
               </div>
             </div>
           </div>

@@ -10,17 +10,22 @@ Tisya AI is a Next.js 14 marketing website for an AI/software solutions company.
 - **Styling**: Original Webflow CSS (preserved in [globals.css](app/globals.css)) + custom CSS classes
 - **Animations**: Webflow's `Ix2` animation system (loaded via legacy scripts)
 - **Scripts**: jQuery 3.5.1 + Webflow JavaScript bundles (vendor files in `public/asset/`)
-- **UI Components**: Swiper.js for project sliders, custom React components for interactive sections
+- **Sliders**: Webflow native sliders (init via `window.Webflow.require('slider')`)
 - **Analytics**: Vercel Analytics integrated
 
 ### Component Structure Pattern
 All components are in `components/` and follow this pattern:
-- **Client components** use `'use client'` directive for interactivity (Navigation, HomepageContent, WebflowScripts, ImageLightbox)
+- **Client components** use `'use client'` directive for interactivity (Navigation, HomepageContent, WebflowScripts, ImageLightbox, ProjectsSection)
 - **Server-rendered sections** for static content (Footer, ContactSection with Webflow forms)
 - Components are section-based, not granular (one component per major section)
 - Heavy use of Webflow CSS class names (`.navbar`, `.section`, `.display-h1`, etc.)
 
-**Key components**: [Navigation.tsx](components/Navigation.tsx) (mobile menu state), [HomepageContent.tsx](components/HomepageContent.tsx) (IntersectionObserver animations), [WebflowScripts.tsx](components/WebflowScripts.tsx) (legacy animation/form handling)
+**Key components**: 
+- [Navigation.tsx](components/Navigation.tsx) - Mobile menu state management
+- [HomepageContent.tsx](components/HomepageContent.tsx) - IntersectionObserver scroll animations
+- [ProjectsSection.tsx](components/ProjectsSection.tsx) - Slider initialization
+- [WebflowScripts.tsx](components/WebflowScripts.tsx) - Legacy animation/form handling
+- [ImageLightbox.tsx](components/ImageLightbox.tsx) - Image modal gallery
 
 ### Data Flow & External Dependencies
 1. **Form handling**: Webflow forms embedded in [ContactSection.tsx](components/ContactSection.tsx) - uses Webflow's form submission
@@ -83,6 +88,45 @@ Uses React `useState` for simple toggles (e.g., mobile menu in [Navigation.tsx](
 ### Form Handling
 Contact form is Webflow-native, embedded in HTML. Success/error messages use Webflow classes (`.w-form-done`, `.w-form-fail`). Don't modify form structure without updating in Webflow.
 
+## Component Interaction Patterns
+
+### IntersectionObserver for Scroll Animations
+[HomepageContent.tsx](components/HomepageContent.tsx) uses IntersectionObserver to trigger staggered card animations on scroll:
+```tsx
+const observer = new IntersectionObserver((entries) => {
+  if (entry.isIntersecting) {
+    // Animate cards with staggered delay
+    processCards.forEach((card, index) => {
+      setTimeout(() => {
+        cardElement.style.opacity = '1'
+        cardElement.style.transform = 'translateX(0)'
+      }, index * 200)
+    })
+    observer.unobserve(entry.target) // Important: unobserve after animation
+  }
+}, { threshold: 0.2 })
+```
+Always clean up with `observer.disconnect()` in return statement.
+
+### Slider & Carousel Initialization
+Projects use Webflow's native sliders (not Swiper library). Initialize after component mount in [ProjectsSection.tsx](components/ProjectsSection.tsx):
+```tsx
+useEffect(() => {
+  if (typeof window !== 'undefined' && (window as any).Webflow) {
+    (window as any).Webflow.require('slider').redraw()
+    (window as any).Webflow.require('slider').ready()
+  }
+}, [])
+```
+
+### Image Lightbox Pattern
+[ImageLightbox.tsx](components/ImageLightbox.tsx) provides `window.openLightbox()` global function. Attach click handlers to images:
+```tsx
+onClick={(e) => {
+  (window as any).openLightbox?.(e.currentTarget.src)
+}}
+```
+
 ## Common Tasks
 
 ### Modifying component styles
@@ -94,7 +138,7 @@ Contact form is Webflow-native, embedded in HTML. Success/error messages use Web
 - Use Next.js `Link` component with hash routes (`href="/#section-id"`)
 
 ### Integrating new images
-- Place images in `public/asset/images/`
+- Place images in `public/asset/images/` or `public/projects/`
 - Use `<img>` tags with proper `alt` text (already CDN-optimized in config)
 
 ### Debugging Webflow animations
@@ -107,8 +151,21 @@ Contact form is Webflow-native, embedded in HTML. Success/error messages use Web
 - **Mobile menu**: Manually toggles `document.body.overflow` to prevent scrolling ([Navigation.tsx](components/Navigation.tsx#L13-L16))
 - **Script timing**: 100ms delay in [WebflowScripts.tsx](components/WebflowScripts.tsx) needed for jQuery and Webflow JS to load
 - **Image hosting**: Some images proxied from `cdn.prod.website-files.com`; configure in Vercel deployment if CORS issues occur
+- **Swiper.js**: Listed in package.json but not actively used; sliders use Webflow's native implementation
 
 ## TypeScript Setup
 - `tsconfig.json` uses `@/*` path alias for clean imports
 - Webflow global interface extended in [WebflowScripts.tsx](components/WebflowScripts.tsx#L5-L7) to avoid type errors
 - Strict mode enabled; ensure all external scripts have proper type definitions
+
+## SEO Considerations
+- Metadata configured in [layout.tsx](app/layout.tsx) with comprehensive keywords targeting local searches ("Siliguri", "West Bengal", "AI solutions")
+- Open Graph tags set for social sharing with image preview
+- Sitemap ([sitemap.ts](app/sitemap.ts)) and robots.txt ([robots.ts](app/robots.ts)) configured for search indexing
+- Keep keyword targeting focused on service + location combinations for conversion
+
+## Deployment & Environment
+- Deployed on Vercel with Analytics integration
+- Image remoting from `cdn.prod.website-files.com` requires CORS allowlist in Vercel
+- Next.js build ignores linting errors but enforces TypeScript checks (`typescript.ignoreBuildErrors: false`)
+- Production builds require all Webflow scripts to fully load before route transitions
