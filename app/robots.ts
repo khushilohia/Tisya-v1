@@ -17,7 +17,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://tisya.vercel.app/sitemap.xml',
-    host: 'https://tisya.vercel.app',
+    sitemap: 'https://tisya.tech/sitemap.xml',
+    host: 'https://tisya.tech',
   }
 }
