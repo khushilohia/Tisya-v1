@@ -17,7 +17,7 @@ export default function ContactSection() {
     const formData = new FormData(form);
 
     try {
-      const response = await fetch('https://formsubmit.co/ajax/tisya.ai@outlook.com', {
+      const response = await fetch('https://formsubmit.co/ajax/outreach.tisya@gmail.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -127,7 +127,7 @@ export default function ContactSection() {
           <div className="contact-info-wrap">
             <div className="contact-info">
               <div className="large-paragraph t---neutral-10">+91 9647408802</div>
-              <div className="display-h5">tisya.ai@outlook.com</div>
+              <div className="display-h5">info.tisya@gmail.com</div>
             </div>
             <div className="rating">
               <div className="rating-profiles">
