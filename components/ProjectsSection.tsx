@@ -25,55 +25,66 @@ export default function ProjectsSection() {
           </div>
           <div className="case-study-cms-wrap w-dyn-list">
             <div role="list" className="case-study-cms-list w-dyn-items">
-              
-              {/* Sanjaya Project */}
+
+              {/* CollabX Project */}
               <div role="listitem" className="case-study-cms w-dyn-item">
                 <div className="case-study">
                   <div className="thumbnail-wrap">
                     <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
                       <div className="w-slider-mask">
                         <div className="w-slide">
-                          <img 
-                            src="/projects/s1.png" 
-                            alt="Sanjaya Home" 
+                          <img
+                            src="/projects/collabx (1).png"
+                            alt="CollabX 1"
                             onClick={(e) => {
                               e.preventDefault();
                               (window as any).openLightbox?.(e.currentTarget.src);
                             }}
-                            style={{cursor: 'pointer'}} 
+                            style={{cursor: 'pointer'}}
                           />
                         </div>
                         <div className="w-slide">
-                          <img 
-                            src="/projects/s2.png" 
-                            alt="Sanjaya AI Assistant" 
+                          <img
+                            src="/projects/collabx (2).png"
+                            alt="CollabX 2"
                             onClick={(e) => {
                               e.preventDefault();
                               (window as any).openLightbox?.(e.currentTarget.src);
                             }}
-                            style={{cursor: 'pointer'}} 
+                            style={{cursor: 'pointer'}}
                           />
                         </div>
                         <div className="w-slide">
-                          <img 
-                            src="/projects/s3.png" 
-                            alt="Sanjaya Features" 
+                          <img
+                            src="/projects/collabx (3).png"
+                            alt="CollabX 3"
                             onClick={(e) => {
                               e.preventDefault();
                               (window as any).openLightbox?.(e.currentTarget.src);
                             }}
-                            style={{cursor: 'pointer'}} 
+                            style={{cursor: 'pointer'}}
                           />
                         </div>
                         <div className="w-slide">
-                          <img 
-                            src="/projects/s4.png" 
-                            alt="Sanjaya Auto Crop Care" 
+                          <img
+                            src="/projects/collabx (4).png"
+                            alt="CollabX 4"
                             onClick={(e) => {
                               e.preventDefault();
                               (window as any).openLightbox?.(e.currentTarget.src);
                             }}
-                            style={{cursor: 'pointer'}} 
+                            style={{cursor: 'pointer'}}
+                          />
+                        </div>
+                        <div className="w-slide">
+                          <img
+                            src="/projects/collabx (5).png"
+                            alt="CollabX 5"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              (window as any).openLightbox?.(e.currentTarget.src);
+                            }}
+                            style={{cursor: 'pointer'}}
                           />
                         </div>
                       </div>
@@ -81,15 +92,182 @@ export default function ProjectsSection() {
                     </div>
                     <div className="overlay-01" style={{pointerEvents: 'none'}}></div>
                     <div className="year" style={{pointerEvents: 'none'}}>
-                      <div className="small-paragraph">2025</div>
+                      <div className="small-paragraph">2026</div>
                     </div>
                   </div>
-                  <a href="https://sanjaya-prototype.vercel.app/" target="_blank" className="case-study-text" style={{cursor: 'pointer', display: 'block', textDecoration: 'none', color: 'inherit'}}>
-                    <h3 className="display-h5">Sanjaya - AI Agriculture</h3>
+                  <div className="case-study-text">
+                    <h3 className="display-h5">CollabX</h3>
                     <div className="paragraph t---neutral-10">
-                      An AI-powered smart agriculture platform that helps farmers optimize crop management, monitor soil conditions, and predict weather patterns for better agricultural outcomes.
+                      A campus collaboration platform bringing idea discovery, team formation, and event execution into one focused workflow for students — idea hub, skill-based team finder, and events board.
                     </div>
-                  </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Sanjaya Farmwise Project */}
+              <div role="listitem" className="case-study-cms w-dyn-item">
+                <div className="case-study">
+                  <div className="thumbnail-wrap">
+                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+                      <div className="w-slider-mask">
+                        <div className="w-slide">
+                          <img
+                            src="/projects/sanjaya-farmwise (1).png"
+                            alt="Sanjaya Farmwise 1"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              (window as any).openLightbox?.(e.currentTarget.src);
+                            }}
+                            style={{cursor: 'pointer'}}
+                          />
+                        </div>
+                        <div className="w-slide">
+                          <img
+                            src="/projects/sanjaya-farmwise (2).png"
+                            alt="Sanjaya Farmwise 2"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              (window as any).openLightbox?.(e.currentTarget.src);
+                            }}
+                            style={{cursor: 'pointer'}}
+                          />
+                        </div>
+                        <div className="w-slide">
+                          <img
+                            src="/projects/sanjaya-farmwise (3).png"
+                            alt="Sanjaya Farmwise 3"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              (window as any).openLightbox?.(e.currentTarget.src);
+                            }}
+                            style={{cursor: 'pointer'}}
+                          />
+                        </div>
+                        <div className="w-slide">
+                          <img
+                            src="/projects/sanjaya-farmwise (4).png"
+                            alt="Sanjaya Farmwise 4"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              (window as any).openLightbox?.(e.currentTarget.src);
+                            }}
+                            style={{cursor: 'pointer'}}
+                          />
+                        </div>
+                        <div className="w-slide">
+                          <img
+                            src="/projects/sanjaya-farmwise (5).png"
+                            alt="Sanjaya Farmwise 5"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              (window as any).openLightbox?.(e.currentTarget.src);
+                            }}
+                            style={{cursor: 'pointer'}}
+                          />
+                        </div>
+                      </div>
+                      <div className="slide-nav w-slider-nav w-round" style={{bottom: '10px'}}></div>
+                    </div>
+                    <div className="overlay-01" style={{pointerEvents: 'none'}}></div>
+                    <div className="year" style={{pointerEvents: 'none'}}>
+                      <div className="small-paragraph">2026</div>
+                    </div>
+                  </div>
+                  <div className="case-study-text">
+                    <h3 className="display-h5">Sanjaya</h3>
+                    <div className="paragraph t---neutral-10">
+                      Voice-first AI farming intelligence for every village — farmers can ask about weather, crop diseases, market prices, and government schemes by voice, in their own language.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Parktag Project */}
+              <div role="listitem" className="case-study-cms w-dyn-item">
+                <div className="case-study">
+                  <div className="thumbnail-wrap">
+                    <div data-delay="2500" data-animation="slide" className="w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+                      <div className="w-slider-mask">
+                        <div className="w-slide">
+                          <img
+                            src="/projects/parktag (1).png"
+                            alt="Parktag 1"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              (window as any).openLightbox?.(e.currentTarget.src);
+                            }}
+                            style={{cursor: 'pointer'}}
+                          />
+                        </div>
+                        <div className="w-slide">
+                          <img
+                            src="/projects/parktag (2).png"
+                            alt="Parktag 2"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              (window as any).openLightbox?.(e.currentTarget.src);
+                            }}
+                            style={{cursor: 'pointer'}}
+                          />
+                        </div>
+                        <div className="w-slide">
+                          <img
+                            src="/projects/parktag (3).png"
+                            alt="Parktag 3"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              (window as any).openLightbox?.(e.currentTarget.src);
+                            }}
+                            style={{cursor: 'pointer'}}
+                          />
+                        </div>
+                        <div className="w-slide">
+                          <img
+                            src="/projects/parktag (4).png"
+                            alt="Parktag 4"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              (window as any).openLightbox?.(e.currentTarget.src);
+                            }}
+                            style={{cursor: 'pointer'}}
+                          />
+                        </div>
+                        <div className="w-slide">
+                          <img
+                            src="/projects/parktag (5).png"
+                            alt="Parktag 5"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              (window as any).openLightbox?.(e.currentTarget.src);
+                            }}
+                            style={{cursor: 'pointer'}}
+                          />
+                        </div>
+                        <div className="w-slide">
+                          <img
+                            src="/projects/parktag (6).png"
+                            alt="Parktag 6"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              (window as any).openLightbox?.(e.currentTarget.src);
+                            }}
+                            style={{cursor: 'pointer'}}
+                          />
+                        </div>
+                      </div>
+                      <div className="slide-nav w-slider-nav w-round" style={{bottom: '10px'}}></div>
+                    </div>
+                    <div className="overlay-01" style={{pointerEvents: 'none'}}></div>
+                    <div className="year" style={{pointerEvents: 'none'}}>
+                      <div className="small-paragraph">2026</div>
+                    </div>
+                  </div>
+                  <div className="case-study-text">
+                    <h3 className="display-h5">ParkTag</h3>
+                    <div className="paragraph t---neutral-10">
+                      A smart QR sticker platform for vehicles that lets anyone contact an owner anonymously and gives cities the data to end parking congestion — no app, no phone numbers, just scan.
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -162,12 +340,12 @@ export default function ProjectsSection() {
                       <div className="small-paragraph">2025</div>
                     </div>
                   </div>
-                  <a href="https://newsapp-mk.vercel.app/" target="_blank" className="case-study-text" style={{cursor: 'pointer', display: 'block', textDecoration: 'none', color: 'inherit'}}>
+                  <div className="case-study-text">
                     <h3 className="display-h5">NewsApp</h3>
                     <div className="paragraph t---neutral-10">
                       Modern news aggregation platform for India/Nepal with automated news fetching, admin dashboard, and comprehensive content management using Next.js 15 and MongoDB.
                     </div>
-                  </a>
+                  </div>
                 </div>
               </div>
 
@@ -240,12 +418,12 @@ export default function ProjectsSection() {
                       <div className="small-paragraph">2025</div>
                     </div>
                   </div>
-                  <a href="#" className="case-study-text" style={{cursor: 'pointer', display: 'block', textDecoration: 'none', color: 'inherit'}}>
+                  <div className="case-study-text">
                     <h3 className="display-h5">SGAY GIS-MIS</h3>
                     <div className="paragraph t---neutral-10">
                       Comprehensive GIS-based Management Information System for Sikkim Garib Awas Yojana with spatial data management, beneficiary tracking, and real-time progress monitoring.
                     </div>
-                  </a>
+                  </div>
                 </div>
               </div>
 
@@ -296,12 +474,12 @@ export default function ProjectsSection() {
                       <div className="small-paragraph">2024</div>
                     </div>
                   </div>
-                  <a href="https://eveai-demo.vercel.app/" target="_blank" className="case-study-text" style={{cursor: 'pointer', display: 'block', textDecoration: 'none', color: 'inherit'}}>
+                  <div className="case-study-text">
                     <h3 className="display-h5">eve.ai</h3>
                     <div className="paragraph t---neutral-10">
                       An intelligent event planning platform using AI to streamline event organization from venue selection to vendor management and guest coordination.
                     </div>
-                  </a>
+                  </div>
                 </div>
               </div>
 
@@ -330,12 +508,12 @@ export default function ProjectsSection() {
                       <div className="small-paragraph">2024</div>
                     </div>
                   </div>
-                  <a href="https://synctalk.vercel.app/" target="_blank" className="case-study-text" style={{cursor: 'pointer', display: 'block', textDecoration: 'none', color: 'inherit'}}>
+                  <div className="case-study-text">
                     <h3 className="display-h5">Sync Talk</h3>
                     <div className="paragraph t---neutral-10">
                       A modern and secure chat application designed with cutting-edge technologies. Sync Talk offers real-time messaging, enterprise-grade encryption, and seamless file sharing for smooth and safe communication.
                     </div>
-                  </a>
+                  </div>
                 </div>
               </div>
 
@@ -375,12 +553,12 @@ export default function ProjectsSection() {
                       <div className="small-paragraph">2024</div>
                     </div>
                   </div>
-                  <a href="https://tooniik.vercel.app/" target="_blank" className="case-study-text" style={{cursor: 'pointer', display: 'block', textDecoration: 'none', color: 'inherit'}}>
+                  <div className="case-study-text">
                     <h3 className="display-h5">Tooniik</h3>
                     <div className="paragraph t---neutral-10">
                       An innovative EdTech platform inspired by YouTube, Tooniik enables students and educators to share, learn, and grow through interactive educational videos and engaging learning content.
                     </div>
-                  </a>
+                  </div>
                 </div>
               </div>
 
@@ -431,12 +609,12 @@ export default function ProjectsSection() {
                       <div className="small-paragraph">2024</div>
                     </div>
                   </div>
-                  <a href="https://kochi-metro-management.vercel.app/" target="_blank" className="case-study-text" style={{cursor: 'pointer', display: 'block', textDecoration: 'none', color: 'inherit'}}>
+                  <div className="case-study-text">
                     <h3 className="display-h5">Kochi Metro App</h3>
                     <div className="paragraph t---neutral-10">
                       A smart web application developed for the Kerala Metro system. It simplifies metro management through real-time tracking, station monitoring, and efficient control operations.
                     </div>
-                  </a>
+                  </div>
                 </div>
               </div>
 

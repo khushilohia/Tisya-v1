@@ -25,10 +25,13 @@ export const metadata: Metadata = {
     'web design services',
     'business software solutions',
   ],
+  alternates: {
+    canonical: 'https://tisya.tech/',
+  },
   openGraph: {
     title: 'Website & Software Development Company in Siliguri | Tisya AI',
     description: 'Best website development, custom CMS, AI software, and SaaS solutions in Siliguri, West Bengal.',
-    url: 'https://tisya.vercel.app/',
+    url: 'https://tisya.tech/',
     type: 'website',
     images: [
       {

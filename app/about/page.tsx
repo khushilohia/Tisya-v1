@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'About Tisya AI - Website & Software Development Company',
     description: 'Learn about our mission, team, and expertise in delivering premium software solutions.',
-    url: 'https://tisya.vercel.app/about',
+    url: 'https://tisya.tech/about',
     type: 'website',
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: 'https://tisya.vercel.app/about',
+    canonical: 'https://tisya.tech/about',
   },
 }
 
